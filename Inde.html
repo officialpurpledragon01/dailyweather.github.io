@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="head">    
+        <h1>Daily Weather Update </h1>
+    </div>
+
+    <section id="current">
+        <label for="cityInput">Enter City:</label>
+        <input type="text" id="cityInput" placeholder="Type 'Lagos'" />
+        <button id="getWeatherBtn">Load</button>
+        <div id="weatherResult"></div>
+    </section>
+
+    <section id="content">
+        <div class="weather_news">
+            <h3>Today’s Weather News</h3>
+            <ul id="newsList"></ul>
+        </div>
+
+        <div class="previousDays">
+            <h3>Previous 10 Days Weather</h3>
+            <div id="previous-weather"></div>
+        </div>
+    </section>
+
+    <footer>
+    <h4>Created with love 💕 by Purple Dragon the Creator 🙃</h4>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
