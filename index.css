@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: Pacifico;
+}
+body {
+    min-height: 100vh;
+    background: #ff95fcbe;
+}
+.head {
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: #7a24d9; 
+    text-shadow: 1px 1px 2px #fff;
+    top: 0;
+    background-color: #ff95fc75;    
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);    
+}
+section {
+    margin: 1px;
+    padding: 2px;
+    text-align: center;
+}
+#cityInput{
+    decoration : none;
+    padding : 10px ;
+    text-align :center;    
+    border-style : solid;    border-top: 0;
+    border-color : #ff95fcbe;
+    background : none;
+    outline : none ;
+}
+button {
+    color : white;
+    background: #ff4ec7;
+    padding: 10px 15px ; 
+    border :none ;   
+    border-radius :25px ;
+    
+}
+#content {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.weather_news, .previousDays {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+#weatherResult {
+    margin-top: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+#weatherResult img {
+    width: 100px;
+    height: 100px;
+}
+.day-box {
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 12px;
+    transition: transform 0.2s ease;
+}
+.day-box:hover {
+    transform: scale(1.02);
+    color : #f4f4f4;
+    background-color: #ff95fcbe;
+}
+footer {
+    color: gray;
+    text-align: center;
+    padding: 3px;
+    border: dashed gray;
+}
+footer:hover {
+    font-family: 'Pacifico', cursive;
+    padding: 3px;
+    color: #b361e9e5;
+    background-color: black;
+    cursor: pointer;
+}
