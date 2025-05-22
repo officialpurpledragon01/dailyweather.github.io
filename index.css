@@ -24,24 +24,27 @@ section {
     padding: 2px;
     text-align: center;
 }
-#cityInput{
-    decoration : none;
-    padding : 10px ;
-    text-align :center;    
-    border-style : solid;    
-    border-top: 0;
+#cityInput {
+    padding: 8px;
+    text-align : center ;    
+    font-size: 1rem;
+    width: 80%;
+    max-width: 250px;
+    border-style : solid;    border-top: 0;
     border-color : #ff95fcbe;
     background : none;
     outline : none ;
 }
+
 button {
-    color : white;
-    background: #ff4ec7;
-    padding: 10px 15px ; 
-    border :none ;   
-    border-radius :25px ;
-    
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #ff4ec7;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
+
 #content {
     display: flex;
     gap: 15px;
@@ -84,15 +87,6 @@ button {
     color : #f4f4f4;
     background-color: #ff95fcbe;
 }
-li {
-    padding : 10px; 
-    text-decoration : none;
-    cursor: pointer;
-}
-span {
-    items-align : center;
-    text-align : center; 
-}
 footer {
     color: gray;
     text-align: center;
@@ -106,16 +100,32 @@ footer:hover {
     background-color: black;
     cursor: pointer;
 }
+li {
+    padding : 10px; 
+    text-decoration : none;
+    cursor: pointer;
+}
+p {
+    items-align : center;
+    text-align : center; 
+}
 @media screen and (min-width: 768px) {
     #cityInput {
         font-size: 1.2rem;
         padding: 10px 15px;
-        width: 300px;
     }
-
     button {
-        font-size: 1.2rem;
-        padding: 10px 20px;
+        font-size: 20px;
+        padding: 10px 30px;
         cursor: pointer;
+    }
+    #cityInput {
+        font-size: 20px;
+        margin: 1px 15px;      
+        padding: 10px 40px ; 
+        border-radius: 5px; 
+    }
+    label {
+        font-size :20px;
     }
 }
