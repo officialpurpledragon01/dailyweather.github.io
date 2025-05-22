@@ -40,7 +40,7 @@ function getWeather() {
 }
 
 function getWeatherNews() {
-    const newsUrl = `https://gnews.io/api/v4/search?q=weather&lang=en&country=nigeria&max=5&apikey=${gnewsApiKey}`;
+    const newsUrl = `https://gnews.io/api/v4/search?q=weather&lang=en&country=nigeria&min=5&apikey=${gnewsApiKey}`;
 
     fetch(newsUrl)
         .then(response => response.json())
