@@ -37,8 +37,8 @@ section {
 }
 
 button {
-    padding: 8px 12px;
-    font-size: 1rem;
+    padding: 8px 15px;
+    font-size: 1.2rem;
     background-color: #ff4ec7;
     color: white;
     border: none;
@@ -47,7 +47,7 @@ button {
 
 #content {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -101,13 +101,13 @@ footer:hover {
     cursor: pointer;
 }
 li {
+    font-size : 17px;
     padding : 10px; 
-    text-decoration : none;
-    cursor: pointer;
+    cursor : pointer ;
 }
-p {
-    items-align : center;
-    text-align : center; 
+li :link {
+    text-decoration: none;
+    color : purple;
 }
 @media screen and (min-width: 768px) {
     #cityInput {
