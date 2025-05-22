@@ -28,7 +28,8 @@ section {
     decoration : none;
     padding : 10px ;
     text-align :center;    
-    border-style : solid;    border-top: 0;
+    border-style : solid;    
+    border-top: 0;
     border-color : #ff95fcbe;
     background : none;
     outline : none ;
@@ -61,10 +62,10 @@ button {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    max-width: 300px;
+    max-width: 95%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: justify;
     font-family: 'Arial', sans-serif;
 }
 #weatherResult img {
@@ -83,6 +84,15 @@ button {
     color : #f4f4f4;
     background-color: #ff95fcbe;
 }
+li {
+    padding : 10px; 
+    text-decoration : none;
+    cursor: pointer;
+}
+span {
+    items-align : center;
+    text-align : center; 
+}
 footer {
     color: gray;
     text-align: center;
@@ -95,4 +105,17 @@ footer:hover {
     color: #b361e9e5;
     background-color: black;
     cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    #cityInput {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        width: 300px;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
 }
